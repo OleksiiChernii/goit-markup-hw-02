@@ -87,14 +87,13 @@ body{
     color: var(--primary-grey);
 }
 
-.section-about .title,
-.section-team .title{
+.section .title{
     font-size: 36px;
     line-height: calc(42.19/36);
     text-align: center;
 }
 
-.section-team .teammate{
+.section .teammate{
     background-color: #ffffff;
     width: 270px;
     height: 368px;
