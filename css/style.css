@@ -30,6 +30,8 @@ body{
 
 .site-nav .current,
 .logo span,
+.site-nav .link:hover,
+.site-nav .link:hover,
 .contact-nav .link:hover,
 .contact-nav .link:focus{
     color: var(--accent);
@@ -75,6 +77,7 @@ body{
 }
 
 .section-features .title{
+    font-size: 14px;
     text-transform: uppercase;
     line-height: calc(16.41/14);
 }
@@ -128,8 +131,10 @@ body{
     color: var(--primary-white);
 }
 
-.page-footer .link:hover,
-.page-footer .link:focus{
+.page-footer [href^="mailto"]:hover,
+.page-footer  [href^="mailto"]:focus,
+.page-footer [href^="tel"]:hover,
+.page-footer  [href^="tel"]:focus{
     color: var(--accent);
 }
 
